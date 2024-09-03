@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Button Styles */
+.btn {
+	display: inline-block;
+	padding: 4px 10px;
+	margin-bottom: 0;
+	font-size: 13px;
+	line-height: 18px;
+	color: #333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	background-color: #f5f5f5;
+	background-image: linear-gradient(top, #fff, #e6e6e6);
+	border: 1px solid #e6e6e6;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+	background-color: #e6e6e6;
+}
+
+.btn-large {
+	padding: 9px 14px;
+	font-size: 15px;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	color: #333;
+	text-decoration: none;
+	background-color: #e6e6e6;
+	transition: background-position 0.1s linear;
+}
+
+.btn-primary {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color: #fff;
+	background-color: #4a77d4;
+	background-image: linear-gradient(top, #6eb6de, #4a77d4);
+	border: 1px solid #3762bc;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+	background-color: #4a77d4;
+}
+
+.btn-block {
+	width: 100%;
+	display: block;
+}
+
+/* Box Sizing */
+* {
+	box-sizing: border-box;
+}
+
+/* HTML Styles */
+html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+/* Body Styles */
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background: url('https://soscreditimmo.ma/wp-content/uploads/2024/06/Design-sans-titre-109-1024x683.jpg') no-repeat center center fixed;
+	background-size: cover;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 1.2px;
+}
+
+/* Login Form Styles */
+.login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 400px;
+	height: auto;
+	padding: 20px;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 10px;
+}
+
+.login h1 {
+	color: #fff;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	letter-spacing: 0.5px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Input Styles */
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	background: rgba(0, 0, 0, 0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
+	transition: box-shadow 0.5s ease;
+}
+
+input:focus {
+	box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Footer Styles */
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+	color: #000;
+	/* Set text color to black */
+	background: rgba(255, 255, 255, 0.8);
+	/* Light background for contrast */
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+	border-top: 1px solid #e6e6e6;
+}
+/* Header Styles */
+.header {
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	/* Light background for contrast */
+	color: #000;
+	/* Black text color */
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #e6e6e6;
+}
